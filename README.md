@@ -58,15 +58,15 @@ To see how you can add code snippets, see below:
         <img src="./assets/images/image-omelette.jpeg" alt="recipe image" />
       </header>
       <div>
+        <h1>Simple Omelette Recipe</h1>
         <section class="recipe">
-          <h1>Simple Omelette Recipe</h1>
           <p>
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
           <figure class="time">
-            <figcaption>Preparation time</figcaption>
+            <h2>Preparation time</h2>
             <ul>
               <li>
                 <div><strong>Total</strong>: Approximately 10 minutes</div>
@@ -269,7 +269,7 @@ div .recipe {
   margin-top: 40px;
 }
 
-div .recipe h1 {
+div h1 {
   font-family: Youngserif-regular;
   font-size: 36px;
   font-weight: lighter;
@@ -290,7 +290,7 @@ div .recipe figure {
   margin: 30px 0;
 }
 
-div .recipe figure figcaption {
+div .recipe figure h2 {
   margin-bottom: 20px;
   font-family: Outfit-bold;
   font-size: 20px;
