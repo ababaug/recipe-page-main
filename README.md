@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ababaug/recipe-page-main]
-- Live Site URL: [https://ababaug.github.io/recipe-page-main/]
+- Solution URL: [https://github.com/ababaug/recipe-page-div]
+- Live Site URL: [https://ababaug.github.io/recipe-page-div/]
 
 ## My process
 
@@ -57,7 +57,7 @@ To see how you can add code snippets, see below:
       <header>
         <img src="./assets/images/image-omelette.jpeg" alt="recipe image" />
       </header>
-      <main>
+      <div>
         <section class="recipe">
           <h1>Simple Omelette Recipe</h1>
           <p>
@@ -166,7 +166,7 @@ To see how you can add code snippets, see below:
             </tr>
           </table>
         </section>
-      </main>
+      </div>
     </section>
   </section>
 </body>
@@ -252,7 +252,7 @@ body {
   box-shadow: 5px 5px 5px 5px transparent;
 }
 
-.content main {
+.content div {
   margin: 30px;
 }
 
@@ -265,23 +265,23 @@ header img {
   max-width: 100%;
 }
 
-main .recipe {
+div .recipe {
   margin-top: 40px;
 }
 
-main .recipe h1 {
+div .recipe h1 {
   font-family: Youngserif-regular;
   font-size: 36px;
   font-weight: lighter;
 }
 
-main .recipe p {
+div .recipe p {
   font-family: Outfit-regular;
   font-size: 17px;
   margin: 20px 0;
 }
 
-main .recipe figure {
+div .recipe figure {
   padding: 30px 30px;
   box-shadow: 5px 5px transparent;
   background-color: #f1e7e7;
@@ -290,29 +290,29 @@ main .recipe figure {
   margin: 30px 0;
 }
 
-main .recipe figure figcaption {
+div .recipe figure figcaption {
   margin-bottom: 20px;
   font-family: Outfit-bold;
   font-size: 20px;
 }
 
-main .recipe figure ul {
+div .recipe figure ul {
   padding-left: 25px;
   font-family: Outfit-light;
   font-size: 17px;
   position: relative;
 }
 
-main .recipe figure ul li::marker {
+div .recipe figure ul li::marker {
   font-size: 12px;
 }
 
-main .recipe figure ul div {
+div .recipe figure ul div {
   margin-left: 10px;
   line-height: 1.5;
 }
 
-main .recipe figure ul li:nth-child(2) {
+div .recipe figure ul li:nth-child(2) {
   margin: 10px 0;
 }
 
@@ -413,16 +413,16 @@ table {
     border-radius: 10px;
   }
 
-  .content main {
+  .content div {
     margin: 0 30px;
     font-size: 16px;
   }
 
-  .content main h1 {
+  .content div h1 {
     font-size: 42px;
   }
 
-  .content main h2 {
+  .content div h2 {
     font-size: 32px;
   }
 }
